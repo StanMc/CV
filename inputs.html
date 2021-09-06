@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Inputs</title>
+</head>
+
+<body>
+    <h1>Form Input Examples</h1>
+    <form action="">
+
+        <table cellspacing="10">
+            <tr>
+                <td> <label> Button </label></td>
+                <td> <input type="button" value="Button" id=""></td>
+            </tr>
+            <tr>
+                <td> <label> Checkbox </label></td>
+                <td><input type="checkbox" name="" checked id=""></td>
+            </tr>
+            <tr>
+                <td> <label for="">Color</label></td>
+                <td> <input type="color" value="#e66465" id=""></td>
+            </tr>
+            <tr>
+                <td> <label> Date </label></td>
+                <td><input type="date" value="2021-09-09" id=""></td>
+            </tr>
+            <tr>
+                <td><label> Datetime-local </label></td>
+                <td><input type="datetime-local" name="" id=""></td>
+            </tr>
+            <tr>
+                <td><label> Email</label></td>
+                <td><input type="email" name="" id="" pattern=".+@gmail\.com" required></td>
+            </tr>
+            <tr>
+                <td><label>File</label></td>
+                <td><input type="file" accept=".doc, .pdf, .docx"></td>
+            </tr>
+            <tr>
+                <td><label>Hidden</label></td>
+                <td><input type="hidden" value="12345" id=""></td>
+            </tr>
+            <tr>
+                <td>
+                    <label">Image</label>
+                </td>
+                <td><input type="image" height="70" width="70"
+                        src="https://m.media-amazon.com/images/I/51ZbIt5lgjL._AC_SR250,230_.jpg" id=""></td>
+            </tr>
+            <tr>
+                <td><label>Month</label></td>
+                <td><input type="month" value="2021-09" id=""></td>
+            </tr>
+            <tr>
+                <td><label for="">Number</label></td>
+                <td><input type="number" value="5" min="0" max="10" step="0.1" id=""></td>
+            </tr>
+            <tr>
+                <td><label for="">Password</label></td>
+                <td><input type="password" minlength="6" maxlength="20" required id=""></td>
+            </tr>
+            <tr>
+                <td><label for="">Radio</label></td>
+                <div>
+                    <td><label for="radioChoice1">Option 1</label><input type="radio" id="option1" name="options"
+                            checked></td>
+                    <td><label for="radioChoice2">Option 2</label><input type="radio" id="option2" name="options"></td>
+                    <td><label for="radioChoice2">Option 3</label><input type="radio" id="option3" name="options"></td>
+                </div>
+            </tr>
+            <tr>
+                <td><label>Range</label></td>
+                <td><input type="range" value="50" step="10" min="10" max="80" id=""></td>
+            </tr>
+            <tr>
+                <td><label for="">Reset</label></td>
+                <td><input type="reset" value="Rest the form" disabled name="" id=""></td>
+            </tr>
+            <tr>
+                <td><label>Search</label></td>
+                <td><input type="search" name="" id="" placeholder="icecream" list="ice-cream-flavors"></td>
+            </tr>
+            <tr>
+                <td><label>Submit</label></td>
+                <td><input type="submit" name="Submit" id=""></td>
+            </tr>
+            <tr>
+                <td><label for="">Telephone</label></td>
+                <td><input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="555-555-1234" name="" id=""></td>
+            </tr>
+            <tr>
+                <td><label for="">Text</label></td>
+                <td><input type="text" spellcheck="true"  required ></td>
+            </tr>
+            <tr>
+                <td><label for="">Time</label></td>
+                <td><input type="time" value="16:00:00" name="" id=""></td>
+            </tr>
+            <tr>
+                <td><label for="">URL</label></td>
+                <td><input type="url" pattern="https://.*" value="https://cnn.com" id="" required></td>
+            </tr>
+            <tr>
+                <td><label for="">Week</label></td>
+                <td><input type="week" value="2021-W44" id=""></td>
+            </tr>
+        </table>
+
+    </form>
+</body>
+
+<datalist id="ice-cream-flavors">
+    <option value="Chocolate">
+    <option value="Coconut">
+    <option value="Mint">
+    <option value="Strawberry">
+    <option value="Vanilla">
+</datalist>
+
+</html>
